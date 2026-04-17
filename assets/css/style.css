@@ -3831,7 +3831,7 @@ html, body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -60%);
     font-family: var(--bold), Georgia, serif;
     color: #fff;
     width: 100%;

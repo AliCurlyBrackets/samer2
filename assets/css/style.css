@@ -3492,12 +3492,21 @@ background: #fff;
 /* ######################### Start Menu Mobile  ###################### */
 /* ##################################################################### */
 
+/* الوضع الطبيعي */
 .Header_Mobile{
-  position: absolute; /* بدل absolute علشان مايتحركش */
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1003;
+}
+
+/* لما المينيو تفتح */
+.Header_Mobile.fixed-header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1003; /* عشان يفضل فوق */
 }
 
 .Header_Mobile_Data{

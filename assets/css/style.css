@@ -3492,7 +3492,7 @@ background: #fff;
 /* ##################################################################### */
 
 .Header_Mobile{
-  position: fixed; /* بدل absolute علشان مايتحركش */
+  position: absolute; /* بدل absolute علشان مايتحركش */
   top: 0;
   left: 0;
   width: 100%;

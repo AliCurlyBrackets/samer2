@@ -1044,6 +1044,7 @@ background: #fff;
       pointer-events: none;
       user-select: none;
       letter-spacing: 4px;
+      display: none !important;
     }
  
     .articles-heading h2 {
@@ -3847,6 +3848,10 @@ html, body {
 
 .cta-section{
   top: 50px;
+}
+
+.About_Us {
+    margin-top: 0;
 }
 }
 
